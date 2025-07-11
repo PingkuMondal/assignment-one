@@ -173,7 +173,7 @@ font-weight: 300;
 /* section four design */
 .section-four{
     justify-content: center;
-    text-align: center;
+   text-align: center;
     margin-top: 137px;
     background-color: white;
      box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.164);
@@ -191,4 +191,36 @@ font-weight: 300;
      height: 324px;
     width: 840px;
     border-radius: 50px;
+}
+.section-five{
+    height: 632px;
+    margin-top: 172px;
+    display: flex;
+    align-items: center;
+  width: 1040px;
+    justify-content: space-between;
+   
+}
+.section-five-title{
+    font-size: 97px;
+    font-weight: bold;
+    padding: 200px 115px 200px 0;
+}
+.form-column{
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+.form-column input[type="text"],.form-column input[type="email"],textarea {
+    height: 64px;
+    width: 100%;
+    border-color: #FFF8F3;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+     box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.164);
+}
+.form-submit {
+width: 497px;
 }
